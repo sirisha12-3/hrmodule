@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hrmodule/Profile_screen.dart';
-import 'package:hrmodule/dashboard_screen.dart';
+
 
 class OtpScreen extends StatefulWidget {
   const OtpScreen({Key? key}) : super(key: key);
@@ -73,8 +73,8 @@ class _OtpScreenState extends State<OtpScreen> {
                   width: double.infinity,
                   child: ElevatedButton(
                       onPressed: () {
-                         Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => DashBoard()));
+                        //  Navigator.of(context).push(MaterialPageRoute(
+                        //           builder: (context) => DashBoard()));
                       },
                       style: ButtonStyle(
                           foregroundColor:

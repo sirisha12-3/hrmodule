@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hrmodule/Login_screen.dart';
 import 'package:hrmodule/Profile_screen.dart';
-import 'package:hrmodule/actions_list.dart';
-import 'package:hrmodule/dashboard_screen.dart';
+
+
 import 'package:hrmodule/otp_screen.dart';
 
 import 'package:hrmodule/splash_screen.dart';
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
        primarySwatch: Colors.blue,
       ),
-      home:DashBoard(),
+      home:SplashScreen(),
     );
   }
 }
